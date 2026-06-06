@@ -15,7 +15,7 @@ from memory.db import save_message
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="Enterprise RAG Assistant",
+    page_title="BrainVault - RAG Chatbot",
     page_icon="🤖",
     layout="wide"
 )
@@ -222,7 +222,6 @@ if question:
         question
         )  
     
-    st.rerun()
     
 
     with st.chat_message("user"):
